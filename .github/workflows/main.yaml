@@ -1,19 +1,18 @@
-name: new
+name: 'CI/CD'
 
-on: 
-    push:
-        branches: 
-            - main
+on:
+  push:
+    branches: 
+      - "master"
 
-job1:
-    hello-world:
-        runs-on:
-            - ubuntu
-        
-        steps:
-            - name: "Print hello world"
-            run: |
-                "echo hello world"
+jobs:
+  hello-world:
+    runs-on:
+      - ubuntu
 
-
-
+    steps:
+      - name: "Print hello world"
+        run: |
+          echo hello world
+          echo barev gugush
+          echo barev dzez
