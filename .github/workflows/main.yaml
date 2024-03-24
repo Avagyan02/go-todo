@@ -8,7 +8,7 @@ on:
 jobs:
   hello-world:
     runs-on:
-      - ubuntu
+      - ubuntu:latest
 
     steps:
       - name: "Print hello world"
