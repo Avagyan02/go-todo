@@ -1,0 +1,19 @@
+name: new
+
+on: 
+    push:
+        branches: 
+            - main
+
+job1:
+    hello-world:
+        runs-on:
+            - ubuntu
+        
+        steps:
+            - name: "Print hello world"
+            run: |
+                "echo hello world"
+
+
+
