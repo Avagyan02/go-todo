@@ -1,6 +1,6 @@
 FROM golang
 
-WORKDIR /app2
+WORKDIR /app
 
 COPY . .
 
